@@ -1,33 +1,17 @@
-Super Mario Bros. Python release notes:
+Marek a Ludek release notes:
 
-What is Super Mario Bros. Python?
+What is Marek a Ludek?
 *********************************
-Super Mario Bros. Python is a clone of the original Super Mario Bros 1985 NES.
+Marek a Ludek is a clone of the original Super Mario Bros 1985 NES.
 It is written in Python using pygame. The game is able to run on all systems 
 that supports Python2.6 and pygame.
 
 
 How to run/install?
 *********************************
-No installation is required, but you will need some free third-party tools to
-run it.
+Install python 2.6 and pygame - everything is free
 
-First you will need to download Python2.6 from the Python homepage.
-http://python.org/download/
-
-Then you will need a exstra module to Python called pygame. Pygame can be 
-downloaded at it's homepage.
-http://pygame.org/download.shtml
-
-It is important to download the correct versions! Use the Python2.6 versions 
-for this game.
-
-
-Project page.
-*********************************
-https://sourceforge.net/projects/supermariobrosp/
-
-
+This file is a modded version of the original Super Mario Bros. Python
 
 *********************************
 This file is part of Super Mario Bros. Python.
