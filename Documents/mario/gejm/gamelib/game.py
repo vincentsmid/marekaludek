@@ -211,7 +211,7 @@ class Game(object):
                 self.bg = load_image("background-1.png")      
         if not continuing:
             cutscene(self.screen,
-                     ['Beta 0.1',
+                     ['Beta 0.2',
                       'Vincent Smid',
                       'Adam Kafka'])
             stop_music()
