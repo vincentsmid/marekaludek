@@ -17,19 +17,19 @@ def ContinueGame(screen):
     play_music("title.ogg", 0.75)
                
 def Help(screen):
-    cutscene(screen, ["POMOC",
+    cutscene(screen, ["HELP",
     "",
-    "Pohybujes se pomoci sipek",
+    "Pohyb pomoci sipek",
     "Skaces pomoci Z",
-    "Vratit se: esc",
-    "PS: Skakej na nepritele, abys je zabil",
+    "Zpet: esc",
+    "PS: skokem zabijis!",
     ""])
     
 class Menu(object):    
 
     def __init__(self, screen):
         self.screen = screen
-        self.menu = EzMenu(["NOVA HRA", lambda: RunGame(screen)], ["POKRACOVAT", lambda: ContinueGame(screen)], ["POMOC", lambda: Help(screen)], ["ODEJIT ZE HRY", sys.exit])
+        self.menu = EzMenu(["Nova hra", lambda: RunGame(screen)], ["Pokracovat", lambda: ContinueGame(screen)], ["Pomoc", lambda: Help(screen)], ["Ukoncit", sys.exit])
         self.menu.set_highlight_color((255, 0, 0))
         self.menu.set_normal_color((255, 255, 255))
         self.menu.center_at(300, 400)

@@ -31,4 +31,4 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Super Mario Bros. Python.  If not, see <http://www.gnu.org/licenses/>.
 
-> Copyright (C) 2009
+> Copyright (C) 2020
